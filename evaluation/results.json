@@ -1,0 +1,344 @@
+{
+  "hits_at_1": 1.0,
+  "hits_at_3": 1.0,
+  "intent_accuracy": 1.0,
+  "intent_macro_f1": 1.0,
+  "intent_confusion": {
+    "leave -> leave": 1,
+    "conduct -> conduct": 2,
+    "attendance -> attendance": 2,
+    "remote_work -> remote_work": 1,
+    "PPE -> PPE": 1,
+    "performance -> performance": 1,
+    "overtime -> overtime": 1,
+    "payroll -> payroll": 1
+  },
+  "rows": [
+    {
+      "question": "How does FMLA work?",
+      "expected_sections": [
+        "5.6"
+      ],
+      "retrieved_sections": [
+        "5.6",
+        "5.7",
+        "5.8",
+        "3.7",
+        "5.11"
+      ],
+      "hits_at_1": true,
+      "hits_at_3": true,
+      "expected_intent": "leave",
+      "predicted_intent": "leave",
+      "answer": "Hi Alex, based on the KPM HR Policy Manual, here's what I found:\n\n- Coordination With Other Leave: FMLA may run concurrently with: Maternity leave (Section 5.7); Paternity leave (Section 5.8); Workers’ compensation leave; PTO or sick leave; Employees should consult HR to understand how different leave types interact.\n- Eligible employees may take up to 12 weeks of unpaid, job-protected leave under the Family and Medical Leave Act (FMLA) for qualifying reasons, including:\n- Eligibility Requirements: Employees must: Have worked for KPM for at least 12 months; Have worked at least 1,250 hours in the previous 12 months; Work at a location with 50 or more employees within 75 miles\n- Benefits During FMLA: Employees may continue health insurance coverage during FMLA by paying their portion of premiums.\n\nSources: Section 5.6 Family & Medical Leave (FMLA)\n\nFor official interpretation or personal employment situations, contact HR.\n\nDid this answer your question?",
+      "sources": [
+        {
+          "chunk_id": "KPM-HR-5-5.6-FamilyMedicalLeave",
+          "section": "5",
+          "subsection": "5.6",
+          "title": "Family & Medical Leave (FMLA)",
+          "confidence": 1.125,
+          "snippet": "5.6 Family & Medical Leave (FMLA) Eligible employees may take up to 12 weeks of unpaid, job-protected leave under the Family and Medical Leave Act (FMLA) for qualifying reasons, including: Birth or adoption of a child Serious health condition of the employee Care for a spouse, child, or parent with a serious health condition Certain military-related needs..."
+        }
+      ]
+    },
+    {
+      "question": "What is the dress code?",
+      "expected_sections": [
+        "6.5",
+        "7.7"
+      ],
+      "retrieved_sections": [
+        "6.5",
+        "6.1",
+        "6.11",
+        "6.3",
+        "6.2"
+      ],
+      "hits_at_1": true,
+      "hits_at_3": true,
+      "expected_intent": "conduct",
+      "predicted_intent": "conduct",
+      "answer": "Hi Alex, based on the KPM HR Policy Manual, here's what I found:\n\n- KPM maintains a dress code to ensure safety, professionalism, and compliance with customer and regulatory requirements.\n- Staff and Administrative Employees: Employees in office or administrative roles should dress in business-casual attire. Clothing should be neat, clean, and appropriate for a professional environment.\n- Special Requirements: Certain areas of the facility may require additional PPE based on; OSHA regulations; Customer audits; Internal safety assessments; Employees must follow all posted PPE requirements and instructions from supervisors.\n- Production Employees: Production employees must wear: Company-issued uniforms (if applicable); Steel-toe or composite-toe safety shoes; Safety glasses; Gloves, hearing protection, or other PPE as required; Hairnets or beard nets in designated areas; Loose clothing, jewelry, or accessories that could become entangled in machinery are prohibited.\n\nSources: Section 6.5 Dress Code & Personal Protective Equipment (PPE)\n\nFor official interpretation or personal employment situations, contact HR.\n\nDid this answer your question?",
+      "sources": [
+        {
+          "chunk_id": "KPM-HR-6-6.5-DressCodePersonalProtectiveEquipment",
+          "section": "6",
+          "subsection": "6.5",
+          "title": "Dress Code & Personal Protective Equipment (PPE)",
+          "confidence": 1.125,
+          "snippet": "6.5 Dress Code & Personal Protective Equipment (PPE) KPM maintains a dress code to ensure safety, professionalism, and compliance with customer and regulatory requirements. Production Employees Production employees must wear: Company-issued uniforms (if applicable) Steel-toe or composite-toe safety shoes Safety glasses Gloves, hearing protection, or other..."
+        }
+      ]
+    },
+    {
+      "question": "What happens if I'm late?",
+      "expected_sections": [
+        "10.6",
+        "3.2"
+      ],
+      "retrieved_sections": [
+        "3.2",
+        "10.6",
+        "4.3",
+        "3.6",
+        "3.5"
+      ],
+      "hits_at_1": true,
+      "hits_at_3": true,
+      "expected_intent": "attendance",
+      "predicted_intent": "attendance",
+      "answer": "Hi Alex, based on the KPM HR Policy Manual, here's what I found:\n\n- Reporting Absences: Employees must notify their supervisor before the start of their shift if they will be absent or late. Notification should occur as early as possible to allow supervisors to adjust staffing. Failure to report an absence may be considered a no-call/no-show, which is a serious violation of company policy.\n- Tardiness: Employees are considered tardy if they arrive after their scheduled start time. Repeated tardiness may result in corrective action as outlined in Section 10.; Unscheduled Absences; Unscheduled absences should be limited to emergencies or unavoidable circumstances. Excessive unscheduled absences may impact performance evaluations and could result in disciplinary action.\n- Employees may request a review of their attendance history through HR.\n- Consistent attendance is essential in automotive manufacturing, where production lines depend on every team member being present and prepared.\n\nSources: Section 3.2 Attendance & Punctuality; Section 10.6 Attendance-Related Discipline\n\nFor official interpretation or personal employment situations, contact HR.\n\nDid this answer your question?",
+      "sources": [
+        {
+          "chunk_id": "KPM-HR-3-3.2-AttendancePunctuality",
+          "section": "3",
+          "subsection": "3.2",
+          "title": "Attendance & Punctuality",
+          "confidence": 1.125,
+          "snippet": "3.2 Attendance & Punctuality Consistent attendance is essential in automotive manufacturing, where production lines depend on every team member being present and prepared. Absences or tardiness can disrupt workflow, delay shipments, and impact customer satisfaction. Reporting Absences Employees must notify their supervisor before the start of their shift..."
+        },
+        {
+          "chunk_id": "KPM-HR-10-10.6-AttendanceRelatedDiscipline",
+          "section": "10",
+          "subsection": "10.6",
+          "title": "Attendance-Related Discipline",
+          "confidence": 0.634,
+          "snippet": "10.6 Attendance-Related Discipline Attendance expectations are outlined in Section 3. Violations may include: Excessive tardiness Unscheduled absences No-call/no-show incidents Leaving work early without approval A single no-call/no-show may result in immediate disciplinary action."
+        }
+      ]
+    },
+    {
+      "question": "Can I work from home?",
+      "expected_sections": [
+        "3.4",
+        "8.2",
+        "8.3"
+      ],
+      "retrieved_sections": [
+        "3.4",
+        "8.2",
+        "8.6",
+        "8.3",
+        "8.1"
+      ],
+      "hits_at_1": true,
+      "hits_at_3": true,
+      "expected_intent": "remote_work",
+      "predicted_intent": "remote_work",
+      "answer": "Hi Alex, based on the KPM HR Policy Manual, here's what I found:\n\n- While the majority of KPM’s workforce is engaged in hands-on production roles that require on-site presence, certain administrative and support functions may be eligible for remote work arrangements.\n- Eligibility: Remote work may be available to employees in roles such as; Human Resources; Accounting and Finance; Procurement; Scheduling and Planning; Engineering (non-production tasks); Administrative support; Production-line employees, maintenance technicians, and logistics personnel are not eligible for remote work due to the nature of their responsibilities.\n- Approval Process: Remote work requires supervisor approval and may be granted on a temporary, part-time, or hybrid basis depending on business needs. HR may review remote work arrangements periodically to ensure compliance and effectiveness.\n- Expectations for Remote Employees: Employees approved for remote work must: Maintain reliable internet access; Be available during core business hours; Follow all data-security and confidentiality policies (see Section 8); Use company-approved tools and systems; Remain responsive to supervisors and team members; Ensure a safe and distraction-free work environment\n\nSources: Section 3.4 Remote Work (Staff-Only); Section 8.2 Data Privacy and Confidentiality\n\nFor official interpretation or personal employment situations, contact HR.\n\nDid this answer your question?",
+      "sources": [
+        {
+          "chunk_id": "KPM-HR-3-3.4-RemoteWork",
+          "section": "3",
+          "subsection": "3.4",
+          "title": "Remote Work (Staff-Only)",
+          "confidence": 0.776,
+          "snippet": "3.4 Remote Work (Staff-Only) While the majority of KPM’s workforce is engaged in hands-on production roles that require on-site presence, certain administrative and support functions may be eligible for remote work arrangements. Eligibility Remote work may be available to employees in roles such as: Human Resources Accounting and Finance Procurement Sched..."
+        },
+        {
+          "chunk_id": "KPM-HR-8-8.2-DataPrivacyandConfidentiality",
+          "section": "8",
+          "subsection": "8.2",
+          "title": "Data Privacy and Confidentiality",
+          "confidence": 0.43,
+          "snippet": "8.2 Data Privacy and Confidentiality KPM employees may have access to sensitive information, including: Customer specifications Production data Pricing and contract information Employee records Proprietary manufacturing processes Supplier information Employees must protect this information from unauthorized access, disclosure, or misuse. Confidential Info..."
+        }
+      ]
+    },
+    {
+      "question": "What PPE do I need?",
+      "expected_sections": [
+        "6.5",
+        "7.7"
+      ],
+      "retrieved_sections": [
+        "7.7",
+        "6.5",
+        "7.9",
+        "7.8",
+        "10.5"
+      ],
+      "hits_at_1": true,
+      "hits_at_3": true,
+      "expected_intent": "PPE",
+      "predicted_intent": "PPE",
+      "answer": "Hi Alex, based on the KPM HR Policy Manual, here's what I found:\n\n- Employees must wear required PPE at all times in designated areas.\n- PPE requirements vary by department and task.\n- Supervisors will communicate PPE requirements and ensure employees have access to necessary equipment.\n- Production Employees: Production employees must wear: Company-issued uniforms (if applicable); Steel-toe or composite-toe safety shoes; Safety glasses; Gloves, hearing protection, or other PPE as required; Hairnets or beard nets in designated areas; Loose clothing, jewelry, or accessories that could become entangled in machinery are prohibited.\n\nSources: Section 7.7 Personal Protective Equipment (PPE); Section 6.5 Dress Code & Personal Protective Equipment (PPE)\n\nFor official interpretation or personal employment situations, contact HR.\n\nDid this answer your question?",
+      "sources": [
+        {
+          "chunk_id": "KPM-HR-7-7.7-PersonalProtectiveEquipment",
+          "section": "7",
+          "subsection": "7.7",
+          "title": "Personal Protective Equipment (PPE)",
+          "confidence": 0.945,
+          "snippet": "7.7 Personal Protective Equipment (PPE) PPE requirements vary by department and task. Employees must wear required PPE at all times in designated areas. Examples include: Safety glasses Steel-toe or composite-toe shoes Gloves Hearing protection High-visibility vests Respirators (when required) Supervisors will communicate PPE requirements and ensure emplo..."
+        },
+        {
+          "chunk_id": "KPM-HR-6-6.5-DressCodePersonalProtectiveEquipment",
+          "section": "6",
+          "subsection": "6.5",
+          "title": "Dress Code & Personal Protective Equipment (PPE)",
+          "confidence": 0.91,
+          "snippet": "6.5 Dress Code & Personal Protective Equipment (PPE) KPM maintains a dress code to ensure safety, professionalism, and compliance with customer and regulatory requirements. Production Employees Production employees must wear: Company-issued uniforms (if applicable) Steel-toe or composite-toe safety shoes Safety glasses Gloves, hearing protection, or other..."
+        }
+      ]
+    },
+    {
+      "question": "What is the drug policy?",
+      "expected_sections": [
+        "6.3"
+      ],
+      "retrieved_sections": [
+        "6.3",
+        "6.2",
+        "6.11",
+        "6.10",
+        "6.1"
+      ],
+      "hits_at_1": true,
+      "hits_at_3": true,
+      "expected_intent": "conduct",
+      "predicted_intent": "conduct",
+      "answer": "Hi Alex, based on the KPM HR Policy Manual, here's what I found:\n\n- Prohibited Behavior: Employees may not: Use, possess, or distribute illegal drugs on company property; Report to work under the influence of drugs or alcohol; Consume alcohol during work hours or breaks; Misuse prescription medications\n- Drug and Alcohol Testing: Testing may be required; Pre-employment; Post-accident; When reasonable suspicion exists; Randomly (for safety-sensitive positions); Employees who refuse testing may be subject to disciplinary action.\n- Prescription Medications: Employees taking prescribed medications that may impair performance must notify HR or their supervisor. KPM will work with the employee to determine appropriate accommodations.\n- Because KPM operates in a safety-sensitive automotive manufacturing environment, maintaining a drug- and alcohol-free workplace is essential.\n\nSources: Section 6.3 Drug & Alcohol Policy\n\nFor official interpretation or personal employment situations, contact HR.\n\nDid this answer your question?",
+      "sources": [
+        {
+          "chunk_id": "KPM-HR-6-6.3-DrugAlcoholPolicy",
+          "section": "6",
+          "subsection": "6.3",
+          "title": "Drug & Alcohol Policy",
+          "confidence": 1.125,
+          "snippet": "6.3 Drug & Alcohol Policy Because KPM operates in a safety-sensitive automotive manufacturing environment, maintaining a drug- and alcohol-free workplace is essential. Prohibited Behavior Employees may not: Use, possess, or distribute illegal drugs on company property Report to work under the influence of drugs or alcohol Consume alcohol during work hours..."
+        }
+      ]
+    },
+    {
+      "question": "How do performance reviews work?",
+      "expected_sections": [
+        "9.3"
+      ],
+      "retrieved_sections": [
+        "9.3",
+        "9.4",
+        "9",
+        "9.8",
+        "7.8"
+      ],
+      "hits_at_1": true,
+      "hits_at_3": true,
+      "expected_intent": "performance",
+      "predicted_intent": "performance",
+      "answer": "Hi Alex, based on the KPM HR Policy Manual, here's what I found:\n\n- KPM conducts annual performance reviews for all employees.\n- These reviews provide a formal opportunity to evaluate performance, discuss accomplishments, and identify areas for improvement.\n- Performance reviews typically include:\n- Supervisors may also consider customer feedback, audit results, and production metrics when evaluating performance.\n\nSources: Section 9.3 Performance Reviews\n\nFor official interpretation or personal employment situations, contact HR.\n\nDid this answer your question?",
+      "sources": [
+        {
+          "chunk_id": "KPM-HR-9-9.3-PerformanceReviews",
+          "section": "9",
+          "subsection": "9.3",
+          "title": "Performance Reviews",
+          "confidence": 1.117,
+          "snippet": "9.3 Performance Reviews KPM conducts annual performance reviews for all employees. These reviews provide a formal opportunity to evaluate performance, discuss accomplishments, and identify areas for improvement. Review Components Performance reviews typically include: Job knowledge and technical skills Quality of work and attention to detail Productivity..."
+        }
+      ]
+    },
+    {
+      "question": "How does overtime work?",
+      "expected_sections": [
+        "3.3"
+      ],
+      "retrieved_sections": [
+        "3.3",
+        "2.1",
+        "4.5",
+        "2.1",
+        "3.5"
+      ],
+      "hits_at_1": true,
+      "hits_at_3": true,
+      "expected_intent": "overtime",
+      "predicted_intent": "overtime",
+      "answer": "Hi Alex, based on the KPM HR Policy Manual, here's what I found:\n\n- Due to the nature of automotive manufacturing, overtime may be required to meet customer deadlines, respond to increased demand, or recover from production disruptions.\n- Eligibility: Non-exempt employees are eligible for overtime pay at 1.5 times their regular hourly rate for hours worked over 40 in a workweek.; Exempt employees are not eligible for overtime compensation.\n- Overtime Approval: All overtime must be pre-approved by a supervisor. Unauthorized overtime may result in disciplinary action, even if the hours were worked.; Mandatory Overtime; In certain situations—such as urgent customer orders, equipment downtime recovery, or supply chain delays—mandatory overtime may be required. Supervisors will provide as much notice as possible.\n- Weekend or holiday overtime may be scheduled during peak automotive production cycles.\n\nSources: Section 3.3 Overtime\n\nFor official interpretation or personal employment situations, contact HR.\n\nDid this answer your question?",
+      "sources": [
+        {
+          "chunk_id": "KPM-HR-3-3.3-Overtime",
+          "section": "3",
+          "subsection": "3.3",
+          "title": "Overtime",
+          "confidence": 1.084,
+          "snippet": "3.3 Overtime Due to the nature of automotive manufacturing, overtime may be required to meet customer deadlines, respond to increased demand, or recover from production disruptions. KPM strives to balance operational needs with employee well-being. Eligibility Non-exempt employees are eligible for overtime pay at 1.5 times their regular hourly rate for ho..."
+        }
+      ]
+    },
+    {
+      "question": "What if my paycheck is wrong?",
+      "expected_sections": [
+        "4.5"
+      ],
+      "retrieved_sections": [
+        "4.5",
+        "4.1",
+        "4.4",
+        "4.3",
+        "4.2"
+      ],
+      "hits_at_1": true,
+      "hits_at_3": true,
+      "expected_intent": "payroll",
+      "predicted_intent": "payroll",
+      "answer": "Hi Alex, based on the KPM HR Policy Manual, here's what I found:\n\n- If an employee believes there is an error in their pay, they should notify Payroll immediately.\n- If an overpayment occurs, KPM will work with the employee to establish a reasonable repayment plan.\n- Employees may split deposits across multiple accounts if desired.\n- Direct deposit is the standard method of payment for all employees.\n\nSources: Section 4.5 Pay Adjustments and Corrections; Section 4.1 Pay Schedule\n\nFor official interpretation or personal employment situations, contact HR.\n\nDid this answer your question?",
+      "sources": [
+        {
+          "chunk_id": "KPM-HR-4-4.5-PayAdjustmentsandCorrections",
+          "section": "4",
+          "subsection": "4.5",
+          "title": "Pay Adjustments and Corrections",
+          "confidence": 0.818,
+          "snippet": "4.5 Pay Adjustments and Corrections KPM strives to ensure that all employees are paid accurately and on time. If an employee believes there is an error in their pay, they should notify Payroll immediately. Common issues may include: Incorrect hours Missing overtime Incorrect deductions Missing shift differentials KPM will investigate and correct verified..."
+        },
+        {
+          "chunk_id": "KPM-HR-4-4.1-PaySchedule",
+          "section": "4",
+          "subsection": "4.1",
+          "title": "Pay Schedule",
+          "confidence": 0.588,
+          "snippet": "4.1 Pay Schedule Kentucky Precision Manufacturing (KPM) compensates employees on a bi-weekly payroll schedule, with paydays occurring every other Friday. This schedule supports predictable income planning for employees and aligns with standard practices in the automotive manufacturing industry. Employees are encouraged to review their pay statements regul..."
+        }
+      ]
+    },
+    {
+      "question": "What happens for no-call/no-show?",
+      "expected_sections": [
+        "10.6",
+        "3.2"
+      ],
+      "retrieved_sections": [
+        "10.6",
+        "3.2",
+        "3.5",
+        "10.8",
+        "3.4"
+      ],
+      "hits_at_1": true,
+      "hits_at_3": true,
+      "expected_intent": "attendance",
+      "predicted_intent": "attendance",
+      "answer": "Hi Alex, based on the KPM HR Policy Manual, here's what I found:\n\n- A single no-call/no-show may result in immediate disciplinary action.\n- No-call/no-show incidents\n- Reporting Absences: Employees must notify their supervisor before the start of their shift if they will be absent or late. Notification should occur as early as possible to allow supervisors to adjust staffing. Failure to report an absence may be considered a no-call/no-show, which is a serious violation of company policy.\n- Supervisors maintain attendance records for all employees.\n\nSources: Section 10.6 Attendance-Related Discipline; Section 3.2 Attendance & Punctuality\n\nFor official interpretation or personal employment situations, contact HR.\n\nDid this answer your question?",
+      "sources": [
+        {
+          "chunk_id": "KPM-HR-10-10.6-AttendanceRelatedDiscipline",
+          "section": "10",
+          "subsection": "10.6",
+          "title": "Attendance-Related Discipline",
+          "confidence": 1.125,
+          "snippet": "10.6 Attendance-Related Discipline Attendance expectations are outlined in Section 3. Violations may include: Excessive tardiness Unscheduled absences No-call/no-show incidents Leaving work early without approval A single no-call/no-show may result in immediate disciplinary action."
+        },
+        {
+          "chunk_id": "KPM-HR-3-3.2-AttendancePunctuality",
+          "section": "3",
+          "subsection": "3.2",
+          "title": "Attendance & Punctuality",
+          "confidence": 0.904,
+          "snippet": "3.2 Attendance & Punctuality Consistent attendance is essential in automotive manufacturing, where production lines depend on every team member being present and prepared. Absences or tardiness can disrupt workflow, delay shipments, and impact customer satisfaction. Reporting Absences Employees must notify their supervisor before the start of their shift..."
+        }
+      ]
+    }
+  ]
+}

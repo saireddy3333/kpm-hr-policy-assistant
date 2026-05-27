@@ -1,0 +1,52 @@
+[
+  {
+    "question": "How does FMLA work?",
+    "expected_sections": ["5.6"],
+    "intent": "leave"
+  },
+  {
+    "question": "What is the dress code?",
+    "expected_sections": ["6.5", "7.7"],
+    "intent": "conduct"
+  },
+  {
+    "question": "What happens if I'm late?",
+    "expected_sections": ["3.2", "10.6"],
+    "intent": "attendance"
+  },
+  {
+    "question": "Can I work from home?",
+    "expected_sections": ["3.4", "8.2", "8.3"],
+    "intent": "remote_work"
+  },
+  {
+    "question": "What PPE do I need?",
+    "expected_sections": ["6.5", "7.7"],
+    "intent": "PPE"
+  },
+  {
+    "question": "What is the drug policy?",
+    "expected_sections": ["6.3"],
+    "intent": "conduct"
+  },
+  {
+    "question": "How do performance reviews work?",
+    "expected_sections": ["9.3"],
+    "intent": "performance"
+  },
+  {
+    "question": "How does overtime work?",
+    "expected_sections": ["3.3"],
+    "intent": "overtime"
+  },
+  {
+    "question": "What if my paycheck is wrong?",
+    "expected_sections": ["4.5"],
+    "intent": "payroll"
+  },
+  {
+    "question": "What happens for no-call/no-show?",
+    "expected_sections": ["3.2", "10.6"],
+    "intent": "attendance"
+  }
+]
